@@ -1,0 +1,21 @@
+		(1)	(2)	(3)	(4)
+VARIABLES	LABELS	wtb	wtb	wtb	wtb
+					
+cost	cost	0.0189	0.0119	-0.172	-0.140
+		(0.777)	(0.0643)	(0.324)	(0.164)
+payoff_hyp	payoff_hyp	0.259	0.295***	0.0521	0.309**
+		(0.00246)	(0.0708)	(0.752)	(0.114)
+condition	condition	0.304		0.276	
+		(1.46e-05)		(0.0867)	
+con2	con2	-0.267		-0.381	
+		(3.86e-05)		(0.0139)	
+0.treatment#c.condition			0.301***		0.275*
+			(0.0670)		(0.157)
+0.treatment#c.con2			-0.268***		-0.379**
+			(0.0624)		(0.146)
+Constant	Constant	0.0757	-0.00847	1.337	0.505
+		(0.756)	(0.267)	(0.0477)	(0.485)
+					
+Observations		3,407	3,407	974	974
+R-squared		0.071	0.501	0.021	0.386
+Robust pval in parentheses					

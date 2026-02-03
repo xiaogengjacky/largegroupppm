@@ -1,0 +1,150 @@
+{smcl}
+{txt}{sf}{ul off}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\xiaog\Dropbox\Shared Research Folders\LargeGroupPPM\Dataprocessing_Yan\Oneshot\conditional_test.txt
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}11 Jan 2025, 20:46:19
+{txt}
+{com}. gen wtb_zero = (wtb<=0.5)
+{txt}
+{com}. tab wtb_zero
+
+   {txt}wtb_zero {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      5,218       56.93       56.93
+{txt}          1 {c |}{res}      3,947       43.07      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      9,165      100.00
+{txt}
+{com}. gen wtb_conditional = (abs(wtb -  condition) <= 0.5)
+{txt}
+{com}. tab wtb_conditional
+
+{txt}wtb_conditi {c |}
+       onal {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}      5,581       60.89       60.89
+{txt}          1 {c |}{res}      3,584       39.11      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}      9,165      100.00
+{txt}
+{com}. foreach size of numlist 45 5{c -(}
+{txt}  2{com}.         prtest wtb_zero if (treatment == 0 | treatment == 11) & gpsize == `size', by(treatment)
+{txt}  3{com}.         prtest wtb_zero if (treatment == 0 | treatment == 21) & gpsize == `size', by(treatment)
+{txt}  4{com}.         prtest wtb_zero if (treatment == 0 | treatment == 22) & gpsize == `size', by(treatment)
+{txt}  5{com}.         *prtest wtb_zero if (treatment == 0 | treatment == 1) & gpsize == `size', by(treatment)
+.         *prtest wtb_zero if (treatment == 0 | treatment == 2) & gpsize == `size', by(treatment)
+.         *prtest wtb_zero if (treatment == 0 | treatment == 3) & gpsize == `size', by(treatment)
+.         
+. {c )-}
+
+{txt}Two-sample test of proportions          {res}PPM(norebate{txt}: Number of obs = {res}    1755
+                                                  PR{txt}: Number of obs = {res}    1755
+{txt}{hline 13}{c TT}{hline 64}
+       Group{col 14}{c |}{col 22}Mean{col 29}Std. err.{col 44}z{col 49}P>|z|{col 59}[95% conf. interval]
+{hline 13}{c +}{hline 64}
+PPM(norebate {c |}{res}{col 17} .4678063{col 28} .0119105{col 58} .4444622{col 70} .4911504
+          {txt}PR {c |}{res}{col 17} .4472934{col 28} .0118688{col 58} .4240311{col 70} .4705558
+{txt}{hline 13}{c +}{hline 64}
+        diff {c |}{res}{col 17} .0205128{col 28} .0168145{col 58} -.012443{col 70} .0534686
+{txt}{col 14}{c |}{col 17}under H0:{res}{col 28}  .016818{col 38}    1.22{col 49}0.223
+{txt}{hline 13}{c BT}{hline 64}
+        diff = prop({res}PPM(norebate{txt}) - prop({res}PR{txt})                      z = {res}  1.2197
+{txt}    H0: diff = 0
+
+    Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
+ Pr(Z < z) = {res}0.8887         {txt}Pr(|Z| > |z|) = {res}0.2226          {txt}Pr(Z > z) = {res}0.1113
+
+{txt}Two-sample test of proportions          {res}PPM(norebate{txt}: Number of obs = {res}    1755
+                                                 UPA{txt}: Number of obs = {res}    1755
+{txt}{hline 13}{c TT}{hline 64}
+       Group{col 14}{c |}{col 22}Mean{col 29}Std. err.{col 44}z{col 49}P>|z|{col 59}[95% conf. interval]
+{hline 13}{c +}{hline 64}
+PPM(norebate {c |}{res}{col 17} .4678063{col 28} .0119105{col 58} .4444622{col 70} .4911504
+         {txt}UPA {c |}{res}{col 17} .3840456{col 28} .0116099{col 58} .3612907{col 70} .4068005
+{txt}{hline 13}{c +}{hline 64}
+        diff {c |}{res}{col 17} .0837607{col 28} .0166328{col 58} .0511611{col 70} .1163603
+{txt}{col 14}{c |}{col 17}under H0:{res}{col 28} .0166927{col 38}    5.02{col 49}0.000
+{txt}{hline 13}{c BT}{hline 64}
+        diff = prop({res}PPM(norebate{txt}) - prop({res}UPA{txt})                     z = {res}  5.0178
+{txt}    H0: diff = 0
+
+    Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
+ Pr(Z < z) = {res}1.0000         {txt}Pr(|Z| > |z|) = {res}0.0000          {txt}Pr(Z > z) = {res}0.0000
+
+{txt}Two-sample test of proportions          {res}PPM(norebate{txt}: Number of obs = {res}    1755
+                                                 UPC{txt}: Number of obs = {res}    1755
+{txt}{hline 13}{c TT}{hline 64}
+       Group{col 14}{c |}{col 22}Mean{col 29}Std. err.{col 44}z{col 49}P>|z|{col 59}[95% conf. interval]
+{hline 13}{c +}{hline 64}
+PPM(norebate {c |}{res}{col 17} .4678063{col 28} .0119105{col 58} .4444622{col 70} .4911504
+         {txt}UPC {c |}{res}{col 17} .4022792{col 28} .0117051{col 58} .3793377{col 70} .4252207
+{txt}{hline 13}{c +}{hline 64}
+        diff {c |}{res}{col 17} .0655271{col 28} .0166994{col 58} .0327969{col 70} .0982572
+{txt}{col 14}{c |}{col 17}under H0:{res}{col 28} .0167359{col 38}    3.92{col 49}0.000
+{txt}{hline 13}{c BT}{hline 64}
+        diff = prop({res}PPM(norebate{txt}) - prop({res}UPC{txt})                     z = {res}  3.9153
+{txt}    H0: diff = 0
+
+    Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
+ Pr(Z < z) = {res}1.0000         {txt}Pr(|Z| > |z|) = {res}0.0001          {txt}Pr(Z > z) = {res}0.0000
+
+{txt}Two-sample test of proportions          {res}PPM(norebate{txt}: Number of obs = {res}     585
+                                                  PR{txt}: Number of obs = {res}     585
+{txt}{hline 13}{c TT}{hline 64}
+       Group{col 14}{c |}{col 22}Mean{col 29}Std. err.{col 44}z{col 49}P>|z|{col 59}[95% conf. interval]
+{hline 13}{c +}{hline 64}
+PPM(norebate {c |}{res}{col 17} .4376068{col 28} .0205109{col 58} .3974063{col 70} .4778074
+          {txt}PR {c |}{res}{col 17} .2700855{col 28} .0183573{col 58} .2341058{col 70} .3060651
+{txt}{hline 13}{c +}{hline 64}
+        diff {c |}{res}{col 17} .1675214{col 28} .0275261{col 58} .1135712{col 70} .2214715
+{txt}{col 14}{c |}{col 17}under H0:{res}{col 28} .0279584{col 38}    5.99{col 49}0.000
+{txt}{hline 13}{c BT}{hline 64}
+        diff = prop({res}PPM(norebate{txt}) - prop({res}PR{txt})                      z = {res}  5.9918
+{txt}    H0: diff = 0
+
+    Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
+ Pr(Z < z) = {res}1.0000         {txt}Pr(|Z| > |z|) = {res}0.0000          {txt}Pr(Z > z) = {res}0.0000
+
+{txt}Two-sample test of proportions          {res}PPM(norebate{txt}: Number of obs = {res}     585
+                                                 UPA{txt}: Number of obs = {res}     390
+{txt}{hline 13}{c TT}{hline 64}
+       Group{col 14}{c |}{col 22}Mean{col 29}Std. err.{col 44}z{col 49}P>|z|{col 59}[95% conf. interval]
+{hline 13}{c +}{hline 64}
+PPM(norebate {c |}{res}{col 17} .4376068{col 28} .0205109{col 58} .3974063{col 70} .4778074
+         {txt}UPA {c |}{res}{col 17} .4794872{col 28} .0252972{col 58} .4299056{col 70} .5290687
+{txt}{hline 13}{c +}{hline 64}
+        diff {c |}{res}{col 17}-.0418803{col 28} .0325675{col 58}-.1057115{col 70} .0219508
+{txt}{col 14}{c |}{col 17}under H0:{res}{col 28} .0325496{col 38}   -1.29{col 49}0.198
+{txt}{hline 13}{c BT}{hline 64}
+        diff = prop({res}PPM(norebate{txt}) - prop({res}UPA{txt})                     z = {res} -1.2867
+{txt}    H0: diff = 0
+
+    Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
+ Pr(Z < z) = {res}0.0991         {txt}Pr(|Z| > |z|) = {res}0.1982          {txt}Pr(Z > z) = {res}0.9009
+
+{txt}Two-sample test of proportions          {res}PPM(norebate{txt}: Number of obs = {res}     585
+                                                 UPC{txt}: Number of obs = {res}     585
+{txt}{hline 13}{c TT}{hline 64}
+       Group{col 14}{c |}{col 22}Mean{col 29}Std. err.{col 44}z{col 49}P>|z|{col 59}[95% conf. interval]
+{hline 13}{c +}{hline 64}
+PPM(norebate {c |}{res}{col 17} .4376068{col 28} .0205109{col 58} .3974063{col 70} .4778074
+         {txt}UPC {c |}{res}{col 17} .6153846{col 28} .0201145{col 58}  .575961{col 70} .6548083
+{txt}{hline 13}{c +}{hline 64}
+        diff {c |}{res}{col 17}-.1777778{col 28} .0287278{col 58}-.2340833{col 70}-.1214723
+{txt}{col 14}{c |}{col 17}under H0:{res}{col 28} .0291942{col 38}   -6.09{col 49}0.000
+{txt}{hline 13}{c BT}{hline 64}
+        diff = prop({res}PPM(norebate{txt}) - prop({res}UPC{txt})                     z = {res} -6.0895
+{txt}    H0: diff = 0
+
+    Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
+ Pr(Z < z) = {res}0.0000         {txt}Pr(|Z| > |z|) = {res}0.0000          {txt}Pr(Z > z) = {res}1.0000
+{txt}
+{com}. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\xiaog\Dropbox\Shared Research Folders\LargeGroupPPM\Dataprocessing_Yan\Oneshot\conditional_test.txt
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}11 Jan 2025, 20:46:19
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}

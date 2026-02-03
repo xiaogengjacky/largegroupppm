@@ -1,0 +1,489 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>JUJU YAN</LastAuthor>
+  <Created>2021-09-15T15:06:15Z</Created>
+  <LastSaved>2021-09-15T15:06:15Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9120</WindowHeight>
+  <WindowWidth>23040</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s64">
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s66">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss"/>
+   <NumberFormat/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="45" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="13.8">
+   <Column ss:AutoFitWidth="0" ss:Width="144"/>
+   <Column ss:AutoFitWidth="0" ss:Width="58.2" ss:Span="5"/>
+   <Row ss:Index="2">
+    <Cell ss:StyleID="s62"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">(1)</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">(2)</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">(3)</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">(4)</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">(5)</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">(6)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">VARIABLES</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">wtb</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">wtb</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">wtb</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">wtb</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">wtb</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">wtb</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">cost</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.212</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.219</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.259</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.286</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.285</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.287</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.00282)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.00223)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.000442)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">payoff_hyp</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.0858</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.0942</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.284</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.137</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.123</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.116</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.494)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.426)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.0483)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.0158)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.0218)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.275)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">0b.treatment#c.condition</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.499</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.455</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.494</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.474</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(8.75e-05)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.000902)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(2.89e-10)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1.treatment#c.condition</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.349</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.166</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.482</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.467</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.00550)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.0950)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(1.05e-08)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2.treatment#c.condition</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.402</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.343</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.425</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.474</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.000310)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.0258)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(2.47e-09)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">3.treatment#c.condition</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.688</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.708</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.687</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.692</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(3.61e-06)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(4.02e-06)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">11.treatment#c.condition</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.630</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.692</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.604</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.698</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(6.49e-06)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(2.20e-07)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">21.treatment#c.condition</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.343</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.507</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.696</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.605</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.0483)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.00729)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">22.treatment#c.condition</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.399</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.506</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.732</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.717</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.00509)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(2.83e-05)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(6.34e-10)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">0b.treatment#c.con2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.441</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.429</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.322</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.313</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.000488)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(7.98e-06)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(6.47e-05)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(2.36e-05)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1.treatment#c.con2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.400</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.259</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.320</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.315</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.0271)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.0120)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(3.62e-06)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(1.41e-05)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2.treatment#c.con2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.144</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.121</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.283</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.319</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.0649)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.0981)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(2.55e-05)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(6.56e-08)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">3.treatment#c.con2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.00618</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.0201</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.232</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.237</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.975)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.918)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.0130)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.00578)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">11.treatment#c.con2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.0238</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.0351</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.325</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.395</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.875)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.797)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(2.96e-06)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">21.treatment#c.con2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.00409</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.0775</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.501</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.425</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.985)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.742)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(8.58e-08)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(2.59e-08)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">22.treatment#c.con2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.235</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.298</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.236</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.208</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.0851)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.00440)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.0110)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.0127)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">condition</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.482</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.588</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(5.25e-11)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">con2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.189</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">-0.318</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.00620)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Constant</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.735</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.728</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">1.954</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.494</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.535</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">0.556</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.0681)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.0586)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.000158)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.00747)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.00245)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">(0.0862)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Observations</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">3,702</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">3,702</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">3,702</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">11,776</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">11,776</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">11,776</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">R-squared</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">0.125</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">0.233</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">0.612</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">0.140</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">0.188</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">0.597</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>20</ActiveRow>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:ProtectedObjects>False</x:ProtectedObjects>
+   <x:ProtectedScenarios>False</x:ProtectedScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
